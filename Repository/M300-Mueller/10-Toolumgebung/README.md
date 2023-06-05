@@ -137,6 +137,8 @@ Datei %HOME%/.ssh/id_rsa.pub oder $HOME/.ssh/id_rsa.pub in Zwischenablage kopier
 6.  Den zuvor kopierten Key mit <i>CTRL + V</i> einfügen und auf <strong>Add SSH key</strong> klicken
 7.  Der Schlüssel (SSH-Key) sollte nun in der übergeordneten Liste auftauchen
 ![](Screenshots/SSH-Key.png)
+![](Screenshots/SSH-Key.png)
+
 
 > Weiter Infos zu SSH-Keys in Zusammenhang mit GitHub und dem SSH-Agent findet man unter:
 
