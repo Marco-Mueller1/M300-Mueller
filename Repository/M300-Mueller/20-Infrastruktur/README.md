@@ -227,7 +227,11 @@ Die Angabe des Providers im Vagrantfile definiert, welche Dynamic Infrastructure
         vb.memory = "512"  
     end
 ```
+![](Screenshots/Vagrantfile%20Apache.png)
 
+![](Screenshots/Apache%20VM.png)
+
+![](Screenshots/Apache%20Webserver.png)
 
 ### Workflow
 ***
