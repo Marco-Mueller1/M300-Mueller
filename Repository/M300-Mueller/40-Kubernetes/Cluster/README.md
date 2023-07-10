@@ -3,9 +3,6 @@
 kubectl apply -f Cluster.yaml
 ```
 
-So sollte es aussehen nachdem ausführen von "kubectl apply -f Apache.yaml":
-![Screenshots](Screenshots/Image.png)
-
 ### **Lösche denn erstellten Apache-Server**
 ```
 kubectl delete -f Cluster.yaml
@@ -16,9 +13,6 @@ kubectl delete -f Cluster.yaml
 kubectl port-forward service/master-service 8080:80  
 kubectl port-forward service/worker-service 8081:80   
 ```
-
-Nachdem ausführen des Befehls sollte das so aussehen:
-![](Screenshots/Container.png)
 
 ### **Info**
 Nachdem erstellen des Clusters und dem Port-Forward können die Worker unter dem Link http://localhost:8081 abgerufen werden und der Master unter http://localhost:8080
